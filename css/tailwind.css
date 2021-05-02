@@ -1,7 +1,18 @@
-/* purgecss start ignore */
 @import 'tailwindcss/base';
-/* purgecss end ignore */
-
 @import 'tailwindcss/components';
-
 @import 'tailwindcss/utilities';
+
+@layer components {
+  .rich-text h3,
+  .rich-text h2,
+  .rich-text h1 {
+    @apply text-green-800 font-semibold tracking-tighter;
+  }
+  .rich-text ul,
+  .rich-text ol {
+    @apply list-disc;
+  }
+  .rich-text a {
+    @apply text-green-800 underline hover:text-green-600;
+  }
+}
