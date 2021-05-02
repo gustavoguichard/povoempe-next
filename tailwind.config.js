@@ -1,7 +1,12 @@
+const colors = require('tailwindcss/colors')
+
 module.exports = {
+  purge: ['./pages/**/*.js', './components/**/*.js'],
+  mode: 'jit',
   theme: {
     extend: {
       colors: {
+        gray: colors.warmGray,
         green: {
           100: 'hsl(94deg 74% 94%)',
           200: 'hsl(92deg 60% 85%)',
