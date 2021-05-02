@@ -1,5 +1,10 @@
+import Head from 'next/head'
+
 const IndexPage = () => (
   <>
+    <Head>
+      <title>Projeto Moeda Dourada | Povo em Pé</title>
+    </Head>
     <div className="w-screen mt-0 mb-10 flex justify-center border-green-700 border-b-8 py-12 bg-gray-200">
       <img
         src="/logo.png"
@@ -7,7 +12,7 @@ const IndexPage = () => (
         alt="Povo em Pé"
       />
     </div>
-    <div className="p-4 flex flex-col items-center">
+    <div className="p-8 flex flex-col items-center">
       <h1 className="text-center mb-10 text-green-800 font-semibold">
         Projeto Moeda Dourada
         <br />
@@ -20,7 +25,7 @@ const IndexPage = () => (
           className="max-w-full mb-1"
         />
       </div>
-      <div className="max-w-screen-sm flex flex-col items-center">
+      <div className="max-w-3xl tracking-tight leading-snug flex flex-col items-center">
         <p className="text-gray-600 text-sm">Imagem da artista Malu Kluwe</p>
         <blockquote className="my-6">
           E os homens que ocupam altos cargos
@@ -33,7 +38,7 @@ const IndexPage = () => (
           <br />
           Mais próxima do coração
         </blockquote>
-        <div>
+        <div className="text-gray-600">
           <p>
             Uma distribuição direta de renda à classe menos favorecida,
             proveniente de lucros líquidos apurados por qualquer empresa.
@@ -76,7 +81,9 @@ const IndexPage = () => (
             resultados baixos.
           </p>
           <p>Impostos ou resultados caem no paradigma citado acima.</p>
-          <h3>Aqui deixamos algumas perguntas para a reflexão:</h3>
+          <h3 className="text-green-800 font-semibold tracking-tighter">
+            Aqui deixamos algumas perguntas para a reflexão:
+          </h3>
           <ul className="list-disc">
             <li>Qual a real necessidade de se acumular tanta riqueza?</li>
             <li>Por que quanto mais se tem, mais se quer?</li>
@@ -114,7 +121,9 @@ const IndexPage = () => (
             A empresa não vai adotar um canteiro, ou uma praça, vai adotar uma
             família, uma rua, um bairro inteiro!
           </p>
-          <h3>Entenda bem como funciona:</h3>
+          <h3 className="text-green-800 font-semibold tracking-tighter">
+            Entenda bem como funciona:
+          </h3>
           <p>
             Após o período de um ano e a aferição do resultado da empresa, o
             beneficiário escolhido, a cada 28 dias, terá o direito de sacar uma
@@ -147,7 +156,9 @@ const IndexPage = () => (
             empatia e o calor humano, que em certos níveis são mais necessários
             que o dinheiro, serão importantes e fundamentais nesse processo.
           </p>
-          <h3>E por que escolhemos o valor 20% para socializar?</h3>
+          <h3 className="text-green-800 font-semibold tracking-tighter">
+            E por que escolhemos o valor 20% para socializar?
+          </h3>
           <p>
             Firmamos 20% do lucro (independente do sistema tributário em vigor),
             para prover recursos que gerem uma massa crítica que realmente faça
@@ -217,17 +228,19 @@ const IndexPage = () => (
             <br />
             Amor e União
           </p>
-          <div className="flex justify-center">
+          <div className="flex flex-col gap-4 md:flex-row justify-center items-center md:items-start">
             <img src="/mais_amor.gif" alt="Mais Amor" className="max-w-full" />
+            <blockquote className="max-w-xl italic">
+              E se os recursos que sobem em direção ao topo voltassem para a
+              base da pirâmide, por livre e espontânea vontade do topo?
+              <br />E se esse movimento aumentasse os recursos no topo, mas ao
+              mesmo tempo aumentasse na base, onde a circulação dessa energia
+              fosse fluida e harmônica, numa relação ganha-ganha?
+              <br />
+              Teríamos então a transformação da pirâmide em um toróide, e a
+              sociedade auto-geraria sua energia.
+            </blockquote>
           </div>
-          <p>
-            E se os recursos que sobem em direção ao topo voltassem para a base
-            da pirâmide, por livre e espontânea vontade do topo? E se esse
-            movimento aumentasse os recursos no topo, mas ao mesmo tempo
-            aumentasse na base, onde a circulação dessa energia fosse fluida e
-            harmônica, numa relação ganha-ganha? Teríamos então a transformação
-            da pirâmide em um toróide, e a sociedade auto-geraria sua energia.
-          </p>
         </div>
       </div>
     </div>
