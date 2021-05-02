@@ -3,7 +3,7 @@ import Markdown from 'react-markdown'
 import data from '../data'
 
 const IndexPage = () => (
-  <Head>
+  <>
     <Head>
       <title>{[data.title, data.domain].join(' | ')}</title>
     </Head>
@@ -41,7 +41,7 @@ const IndexPage = () => (
         </div>
       </div>
     </div>
-  </Head>
+  </>
 )
 
 export default IndexPage
