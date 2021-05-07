@@ -14,7 +14,7 @@ const IndexPage = () => (
         alt="Povo em Pé"
       />
     </div>
-    <div className="p-8 flex flex-col items-center text-gray-600">
+    <div className="p-8 flex flex-col items-center text-gray-600 border-green-700 border-b-8 pb-12">
       <h1 className="text-center mb-10 text-green-800 font-semibold">
         {data.title}
         <br />
@@ -40,6 +40,9 @@ const IndexPage = () => (
           </blockquote>
         </div>
       </div>
+    </div>
+    <div className="text-xs bg-gray-100 text-green-900 text-center p-4 py-6 font-semibold">
+      {new Date().getFullYear()} - {data.copy}
     </div>
   </>
 )
