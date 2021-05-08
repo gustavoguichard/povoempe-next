@@ -1,6 +1,6 @@
 module.exports = {
   title: 'Projeto Moeda Dourada',
-  subtitle: 'Projeto Moeda Dourada',
+  subtitle: 'Empresa 13:20',
   domain: 'Povo em Pé',
   content: `É uma iniciativa destinada a distribuir 20% do lucro líquido apurado pelo Povo em Pé - Centro de Yoga e Ayurveda, em forma de renda direta à classe menos favorecida.
 

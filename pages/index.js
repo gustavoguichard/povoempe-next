@@ -10,7 +10,7 @@ const IndexPage = () => (
     <div className="w-screen mt-0 mb-10 flex justify-center border-green-700 border-b-8 py-12 bg-gray-200">
       <img
         src="/logo.png"
-        className="w-56 bg-white py-6 px-10 rounded-lg max-w-full"
+        className="w-56 h-56 object-contain bg-white py-6 px-10 rounded-lg max-w-full"
         alt="Povo em Pé"
       />
     </div>
@@ -29,7 +29,7 @@ const IndexPage = () => (
       </div>
       <div className="max-w-3xl tracking-tight leading-snug flex flex-col items-center">
         <p className="text-gray-600 text-sm">Imagem da artista Malu Kluwe</p>
-        <blockquote className="my-6">
+        <blockquote className="my-6 italic">
           <Markdown>{data.firstBlock}</Markdown>
         </blockquote>
         <Markdown className="rich-text mb-8">{data.content}</Markdown>
