@@ -2,10 +2,12 @@ module.exports = {
   title: 'Projeto Moeda Dourada',
   subtitle: 'Empresa 13:20',
   domain: 'Povo em Pé',
-  content: `É uma iniciativa destinada a distribuir 20% do lucro líquido apurado pelo Povo em Pé - Centro de Yoga e Ayurveda, em forma de renda direta à classe menos favorecida.
+  content: `É uma iniciativa destinada a distribuir 20% do lucro líquido apurado pelo Povo em Pé - Centro de Yoga e Ayurveda, em forma de renda direta à pessoas em estado de extrema vulnerabilidade econômica e social.
 
 Ao executarmos este simples e abundante projeto, pretendemos ser um farol luminoso e tocar a
-consciência de outros empreendedores, fomentando questionamentos sociais construtivos; e assim oportunizando a quem executar o projeto, a real possibilidade de tornar sua marca conhecida, faturar mais e consequentemente lucrar mais!
+consciência de outras pessoas e empreendedores, fomentando questionamentos sociais construtivos; e assim oportunizando a quem executar o projeto, a real possibilidade de tornar sua marca conhecida, faturar mais e consequentemente lucrar mais!
+
+Ou simplesmente, se for uma pessoa física, no silêncio de sua consciência, fazer parte de um grande movimento que a olhos vistos mudará a vida das pessoas de tal forma que a sua própria será tocada.
 
 Abaixo expomos alguns pontos importantes e convidamos você a conhecer mais a fundo nossas
 motivações:
@@ -18,7 +20,7 @@ bizarra.
 uma sociedade extremamente materialista, que força a conta matemática a não fechar
 e ser determinante para a desumana concentração de renda.
 
-O Povo em Pé - Centro de Yoga e Ayurveda, quer ser um bom exemplo para que outras empresas
+O Povo em Pé - Centro de Yoga e Ayurveda, quer ser um bom exemplo para que outras empresas ou mesmo pessoas físicas
 também usem sua liberdade e livre iniciativa para realmente socializarem seus lucros, independente de quaisquer circunstâncias, como sistema tributário vigente ou resultados baixos.
 
 Impostos ou resultados caem no paradigma citado acima. 
@@ -43,9 +45,9 @@ Com efeitos imediatos, pode-se acabar com a miséria e ainda aumentar as vendas
 A empresa não vai adotar um canteiro, ou uma praça, vai adotar uma família, uma rua, um bairro inteiro!
 
 ### Entenda bem como funciona
-Após o período de um ano e a aferição do resultado da empresa, o beneficiário escolhido, a cada 28 dias, terá o direito de sacar uma décima-terceira parte do valor total,  destinado a ele ou eles, naquele ano. A operação será feita via cartão bancário, ou através de alguma organização ou instituição nomeada para este fim. A organização ou instituição nomeada ajudará a administrar a renda junto ao beneficiário. O importante é que, a totalidade da renda mensal seja utilizada por ou para esse beneficiário.
+Após o período de um ano e a aferição do resultado da empresa (ou da pessoa física), o beneficiário escolhido, a cada 28 dias, terá o direito de sacar uma décima-terceira parte do valor total,  destinado a ele ou eles, naquele ano. A operação será feita via cartão bancário, ou através de alguma organização ou instituição nomeada para este fim. A organização ou instituição nomeada ajudará a administrar a renda junto ao beneficiário. O importante é que, a totalidade da renda mensal seja utilizada por ou para esse beneficiário.
 
-Aqui uma simulação com números para exemplificar: no período de Agosto/20 até Julho/21, o Povo em Pé - Centro de Yoga e Ayurveda, apura um lucro líquido (receitas menos despesas) de
+Aqui uma simulação com números para exemplificar: no período de 26 de julho de 2020 até 25 de julho de 2021, o Povo em Pé - Centro de Yoga e Ayurveda, apura um lucro líquido (receitas menos despesas) de
 R$26.000,00. Vinte por cento (20%) deste valor, R$5.200,00, será dividido em 13, totalizando
 R$400,00 a cada 28 dias. Entendemos que o décimo-terceiro benefício faz parte, mas através de
 períodos de tempo harmônicos e que tenham um padrão regular como 13 x 28 = 364 dias.
@@ -76,13 +78,13 @@ Aqui não será diferente e, o ato de compartilhar o lucro via PROJETO MOEDA DOU
 uma forma mais intensa e principalmente amorosa.
 
 ### Considerações finais
-O Povo em Pé - Centro de Yoga e Ayurveda, quer atingir todos os empreendedores que ocupam a
+O Povo em Pé - Centro de Yoga e Ayurveda, através deste exemplo, quer atingir todas as pessoas e empresários que ocupam a
 pirâmide social, estando no topo ou não, em benefício da base que sustenta o todo.
 
 Algumas quebras de paradigmas podem se resumir ao entendimento de que compartilhamento não é
 imposto, e sim um ato de livre e espontânea vontade e iniciativa. 
 
-A partir de um ano da implementação deste projeto (agosto de 2020 a julho de 2021), nosso resultado contábil estará à disposição dos interessados.
+Depois do período de apuração (26 de julho de 2020 a 25 de julho de 2021), nosso resultado contábil estará à disposição dos interessados.
 
 Colocamo-nos à disposição para maiores esclarecimentos através do email [rafapovoempe@gmail.com](mailto:rafapovoempe@gmail.com).
 
@@ -93,11 +95,11 @@ POVO EM PÉ - CENTRO DE YOGA E AYURVEDA
 Agradecemos por sua atenção\\
 Amor e União
 .`,
-  firstBlock: `E os homens que ocupam altos cargos\\
+  firstBlock: `"E os homens que ocupam altos cargos\\
 São os que devem começar\\
 A moldar uma nova realidade\\
 Mais próxima do coração\\
-Mais próxima do coração`,
+Mais próxima do coração"`,
   lastBlock: `E se os recursos que sobem em direção ao topo voltassem para a base da pirâmide, por livre e espontânea vontade do topo?\\
 E se esse movimento aumentasse os recursos no topo, mas ao mesmo tempo aumentasse na base, onde a circulação dessa energia fosse fluida e harmônica, numa relação ganha-ganha?\\
 Teríamos então a transformação da pirâmide em um toróide, e a sociedade auto-geraria sua energia.`,
