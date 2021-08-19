@@ -8,7 +8,7 @@ class MoedaDourada extends Document {
           <meta charSet="utf-8" />
           <link rel="shortcut icon" type="image/x-icon" href="/favicon.png" />
         </Head>
-        <body className="w-screen overflow-x-hidden antialiased text-xl flex flex-col items-center justify-center">
+        <body className="w-screen overflow-x-hidden antialiased text-xl flex flex-col items-center justify-center border-t-8 border-green-600 border-b-8">
           <Main />
           <NextScript />
         </body>

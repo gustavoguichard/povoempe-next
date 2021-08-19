@@ -1,3 +1,5 @@
+import { FingerPrintIcon, ScaleIcon, HeartIcon } from '@heroicons/react/outline'
+
 module.exports = {
   title: 'Projeto Moeda Dourada',
   subtitle: 'Empresa 13:20',
@@ -86,22 +88,37 @@ imposto, e sim um ato de livre e espontânea vontade e iniciativa. 
 
 Depois do período de apuração (26 de julho de 2020 a 25 de julho de 2021), nosso resultado contábil estará à disposição dos interessados.
 
-Colocamo-nos à disposição para maiores esclarecimentos através do email [rafapovoempe@gmail.com](mailto:rafapovoempe@gmail.com).
-
-Rafael Turra Pieruccini\\
-Fundador, guardião e administrador\\
-POVO EM PÉ - CENTRO DE YOGA E AYURVEDA
-
-Agradecemos por sua atenção\\
-Amor e União
-.`,
-  firstBlock: `"E os homens que ocupam altos cargos\\
-São os que devem começar\\
-A moldar uma nova realidade\\
-Mais próxima do coração\\
-Mais próxima do coração"`,
+Colocamo-nos à disposição para maiores esclarecimentos através do email [rafapovoempe@gmail.com](mailto:rafapovoempe@gmail.com).`,
+  firstBlock: `"E os homens que ocupam altos cargos  /   São os que devem começar  /  A moldar uma nova realidade  /  Mais próxima do coração  /  Mais próxima do coração"`,
   lastBlock: `E se os recursos que sobem em direção ao topo voltassem para a base da pirâmide, por livre e espontânea vontade do topo?\\
 E se esse movimento aumentasse os recursos no topo, mas ao mesmo tempo aumentasse na base, onde a circulação dessa energia fosse fluida e harmônica, numa relação ganha-ganha?\\
 Teríamos então a transformação da pirâmide em um toróide, e a sociedade auto-geraria sua energia.`,
   copy: 'Povo em Pé Serviços de Terapia Indiana Ltda - CNPJ 26008109/0001-69',
+  features: [
+    {
+      id: 1,
+      name: 'Assinatura Do Termo De Parceria',
+      description:
+        'No dia 26/07/2021, assinamos o Termo de Parceria entre o Povo Em Pé - Centro de Yoga e Ayurveda, a Amurt-El e a beneficiária. Agora o Projeto Moeda Dourada está definitivamente ancorado em um contrato assinado entre as partes, e vai ser com muita alegria que será feito o primeiro depósito, dia 23/08/2021.',
+      link: 'https://www.instagram.com/p/CSKTq8OLRAq/',
+      icon: FingerPrintIcon,
+    },
+    {
+      id: 2,
+      name: 'Demonstrativo Do Resultado Do Exercício',
+      description:
+        'Aqui está o demonstrativo do resultado do exercício. Este levantamento foi feito pelo escritório Bonamigo Contabilidade. Nosso trabalho está feito! O foco é o gesto de compartilhar 20% do lucro, e não o resultado em si. Se para alguém for necessário saber o valor, é só entrar em contato com o Rafael, através do e-mail [rafapovoempe@gmail.com](mailto:rafapovoempe@gmail.com), ou telefone [51 998059108](https://wa.me/5551998059108).',
+      link: 'https://www.instagram.com/p/CSKUcmOrV36/',
+      icon: ScaleIcon,
+    },
+    {
+      id: 3,
+      name: 'Termo De Parceria',
+      description: `O Termo de Parceria é fundamental para dar clareza e transparência ao Projeto Moeda  Dourada, e também serve de guia para quem quiser executar esta iniciativa.
+
+O Povo Em Pé acredita que a parceria com a [AMURT](www.amurt.org.br) é de extrema importância para o êxito do projeto. Esta Organização da Sociedade Civil já atende esta usuária, conhece a sua história, tem vínculo com a família e um "Plano de Acompanhamento" no sentido de auxiliar na superação de suas vulnerabilidades; e também media o acesso a informações e garantia dos direitos sociais. A AMURT-EL trabalha com políticas públicas, sociais e comunidades há trinta anos e neste sentido está apta a auxiliar a usuária.  A beneficiária, provedora da família, com cinco filhas, é recicladora, receberá o benefício em sua conta bancária e assim poderá decidir o melhor uso do recurso.`,
+      link: 'https://www.instagram.com/p/CSKVnR4r4-k/',
+      icon: HeartIcon,
+    },
+  ],
 }
